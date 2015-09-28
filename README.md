@@ -1,4 +1,4 @@
-# Generator-jekyllrb 
+# Grncom
 
 [![Build Status](https://travis-ci.org/kerrongordon/grncom.svg?branch=master)](https://travis-ci.org/kerrongordon/grncom)
 
