@@ -1,0 +1,27 @@
+---
+layout: default
+title: Services
+---
+
+<h1>services</h1>
+
+{% for post in site.posts %}
+ {{post.title}}
+{% endfor %}
+
+<div class="container">
+	<div class="row">
+	{% for service in site.data.services.services %}
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="{{ site.baseurl }}/img/flatpc.png" alt="...">
+	      <div class="caption">
+	        <h3>{{ service.title }}</h3>
+	        <p>{{ service.infor }}</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Button</a>
+	      </div>
+	    </div>
+	  </div>
+	{% endfor %}
+	</div>
+</div>

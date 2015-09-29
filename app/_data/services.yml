@@ -1,0 +1,30 @@
+services:
+ - {title: 'Cyber security',
+	link: '/cyber',
+	icon: 'fa-lock fa',
+	infor: 'Computer and Cyber Security policies, Computer Forensics and E-Discovery In today’s technological environment, there is too much vulnerability, threats and risks that are unseen and ignored...'}
+
+ - {title: 'Network Design & Installation',
+	link: '/network',
+	icon: 'fa-globe fa',
+	infor: 'Our lead staff members have several years experience in the field of networking and carry various certifications from CompTIA, Cisco and Juniper. We are fully proficient and network Savvy...'}
+
+ - {title: 'Computer Forensics',
+	link: '/forensics',
+	icon: 'fa-shield fa',
+	infor: 'Computer forensics is the acquisition, examination, and reporting of information found on computers and networks that pertain to a criminal or civil investigationComputer Forensic Services...'}
+
+ - {title: 'Web Design and Advertising',
+	link: '/webdesign',
+	icon: 'fa-desktop fa',
+	infor: 'The Internet is used to advertise and get coverage for your business, having a professional designed and updated website is a vital and key part of in ensuring that your business stays ahead...'}
+
+ - {title: 'Staff Training',
+	link: '/training',
+	icon: 'fa-users fa',
+	infor: 'We believe that having a fully qualified and trained staff is vital and most important for every business to grow and to gain profitability. We also offer onsite training for companies and organization...'}
+
+ - {title: 'Virtualization',
+	link: '/virtualization',
+	icon: 'fa-desktop fa',
+	infor: 'Virtualization addresses IT’s most pressing challenge: the infrastructure sprawl that compels IT departments to channel 70 percent of their budget into maintenance, leaving scant resources for business-building...'}
