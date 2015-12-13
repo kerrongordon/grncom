@@ -7,8 +7,9 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   font-weight: 300;
-  text-align: center;
+  line-height: 1.5em;
   background-color: #fff;
+  color: #666;
 }
 
 @font-face {
@@ -19,3 +20,68 @@ body {
   font-style: normal;
 }
 
+nav {
+  background: #fff;
+  color: inherit;
+  position: relative;
+  z-index: 1;
+  a {
+    color: inherit;
+  }
+  ul {
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.hero {
+  height: 600px;
+  background-color: #F4511E; 
+  background: url('/img/hero.jpg') 50% 50% /cover;
+  position: relative;
+
+  .overfill {
+    background-color: #F4511E;
+  }
+}
+
+.inforbar {
+  background-color: #F4511E; 
+  padding: 10px;
+
+  .socbar {
+    margin: -17px 0;
+  }
+
+  a {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .div {
+    margin: 0 10px;
+    color: #fff;
+  }
+
+  .material-icons {
+    font-size: 12px;
+  }
+}
+
+.subbit {
+
+  .inf {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(-125px);
+    margin-top: 20px;
+  }
+
+  svg {
+    width: 125px;
+    height: 125px;
+    fill: #F4511E;
+  }
+}

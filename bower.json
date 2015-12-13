@@ -5,6 +5,7 @@
     "bootstrap": "~3.3.5",
     "fontawesome": "~4.2.0",
     "underscore": "~1.7.0",
-    "wowjs": "~1.0.3"
+    "wowjs": "~1.0.3",
+    "Materialize": "materialize#~0.97.3"
   }
 }
