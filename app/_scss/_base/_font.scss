@@ -1,0 +1,21 @@
+body {
+  font-family: $font;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  background-color: $bgColor;
+  color: $fontColor;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+
+	border-top: 50px solid $accent;
+
+	margin: 0 auto;
+
+  transform: translateY(-4px);
+}

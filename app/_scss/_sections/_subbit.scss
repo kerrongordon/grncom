@@ -1,0 +1,16 @@
+.subbit {
+
+  .inf {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(-125px);
+    margin-top: 20px;
+  }
+
+  svg {
+    width: 125px;
+    height: 125px;
+    fill: $accent;
+  }
+}
