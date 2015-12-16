@@ -1,0 +1,36 @@
+brand:
+  - { title: 'avg',
+    url: 'www.avg.com',
+    icon: 'avg'}
+
+  - { title: 'dell',
+    url: 'www.dell.com',
+    icon: 'dell-logo'}
+
+  - { title: 'microsoft',
+    url: 'www.microsoft.com',
+    icon: 'microsoft'}
+
+  - { title: 'aws',
+    url: 'aws.amazon.com',
+    icon: 'aws'}
+
+  - { title: 'juniper',
+    url: 'www.juniper.net',
+    icon: 'juniper-logo'}
+
+  - { title: 'kaspersky',
+    url: 'caribbean.kaspersky.com',
+    icon: 'kaspersky'}
+
+  - { title: 'digium',
+    url: 'www.digium.com',
+    icon: 'digium'}
+
+  - { title: 'ncomputing',
+    url: 'www.ncomputing.com',
+    icon: 'ncomputing'}
+
+  - { title: 'Cloudera',
+    url: 'www.cloudera.com',
+    icon: 'Cloudera_logo_rgb'}

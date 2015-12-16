@@ -1,3 +1,31 @@
 .services {
-  margin: 100px 0;
+  margin: 146px 0;
+}
+
+.service {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .icon {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $accent;
+  }
+
+  a {
+    color: $accent;
+  }
+
+  &::after {
+    content: '';
+    border-top: solid 1px $accent;
+    display: block;
+    margin-top: 15px;
+    width: 30%;
+  }
 }

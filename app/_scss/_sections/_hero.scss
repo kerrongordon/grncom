@@ -3,4 +3,5 @@
   background-color: $accent;
   background: url('/img/hero.jpg') 50% 50% /cover;
   position: relative;
+  z-index: -1;
 }
