@@ -4,6 +4,10 @@
 
   .socbar {
     margin: -17px 0;
+
+    svg {
+      margin: 0 3px;
+    }
   }
 
   a {
@@ -19,4 +23,5 @@
   .material-icons {
     font-size: 12px;
   }
+
 }

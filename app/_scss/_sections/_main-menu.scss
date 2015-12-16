@@ -9,5 +9,12 @@ nav {
     a {
       color: inherit;
     }
+    li {
+      &:hover,
+      &.active {
+        background-color: $accent;
+        color: #fff;
+      }
+    }
   }
 }
