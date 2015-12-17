@@ -21,20 +21,34 @@
 }
 
 .cpulse {
-  background: #fff;
+  border: solid 3px #fff;
   width: 0px;
   height: 0px;
   border-radius: 50%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 100%;
   transform: translate(-50%, -50%);
-  animation: cpulse 5s linear infinite
+  animation: cpulse 1s linear infinite;
+
+  &:nth-child(2) {
+    animation: cpulse 1.5s linear infinite;
+  }
+
+  &:nth-child(3) {
+    border: solid 4px #fff;
+    animation: cpulsec .5s linear infinite alternate;
+  }
 }
+
 
 
 @keyframes cpulse {
   0% {opacity: 0; width: 0px; height: 0px}
-  50% {opacity: 0.5;}
-  100% {opacity: 0; width: 2000px; height: 2000px;}
+  50% {opacity: 0.9;}
+  100% {opacity: 0; width: 300px; height: 300px;}
+}
+@keyframes cpulsec {
+  0% { width: 0px; height: 0px}
+  100% { width: 100px; height: 100px;}
 }
