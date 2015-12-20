@@ -1,19 +1,42 @@
+.hservices {
+  .container {
+    width: 90%;
+  }
+}
+
 .services {
   margin: 100px 0;
+
+  .flex {
+    flex-flow: row wrap;
+  }
+
 }
 
 .service {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px;
+  width: 33.3%;
+  text-align: center;
+  //transition: all 0.5s ease-in-out;
 
   .icon {
-    float: left;
-    margin: 0 10px 0 0;
+    //float: left;
+    //margin: 12px 10px 0 0;
+  }
+
+  h5 {
+    &:after {
+      content: '';
+      border-top: solid 1px $accent;
+      display: block;
+      margin: 15px auto 0;
+      width: 30%;
+    }
   }
 
   svg {
-    width: 24px;
-    height: 24px;
+    width: 100px;
+    height: 100px;
     fill: $accent;
   }
 
@@ -21,14 +44,39 @@
     color: $accent;
   }
 
-  &::after {
-    content: '';
-    border-top: solid 1px $accent;
-    display: block;
-    margin-top: 15px;
-    width: 30%;
+}
+
+@media (max-width: $tablet) {
+  .service {
+    width: 50%;
   }
 }
+
+@media (max-width: $mobile) {
+  .service {
+    width: 100%;
+    text-align: left;
+
+    .icon {
+      float: left;
+      margin: 12px 10px 0 0;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    h5 {
+      &:after {
+        margin: 15px 0 0 0;
+      }
+    }
+
+
+  }
+}
+
 
 .service_page {
   .deap {

@@ -4,8 +4,7 @@
     background: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: -50px;
-    margin-bottom: -50px;
+    margin: -50px 10px;
     position: relative;
     z-index: 2;
   }
@@ -14,6 +13,32 @@
     width: 60px;
     height: 60px;
     fill: $accent;
+  }
+
+  @media (max-width: 730px) {
+    .flex {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .inf {
+      background: transparent;
+      margin: 0;
+      box-shadow: none;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+
+      i {
+        float: left;
+        margin: 15px 10px 0 0;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
   }
 
 }

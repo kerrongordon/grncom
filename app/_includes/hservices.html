@@ -10,9 +10,9 @@
   <div class="container">
     <div class="services">
 
-      <div class="row">
+      <div class="flex">
         {% for service in site.data.services.services %}
-      	  <div class="col s12 l4">
+
             <div class="service">
         	    <span class="icon">
                 {{ service.icon }}
@@ -23,7 +23,7 @@
         	      <a href="#" class="" role="button">View Details &raquo;</a>
         	    </div>
             </div>
-      	  </div>
+      	
       	{% endfor %}
       </div>
   </div>
