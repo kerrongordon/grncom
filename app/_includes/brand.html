@@ -7,7 +7,7 @@
   <div class="row moveup">
       {% for brand in site.data.brand.brand %}
       <div class="col s6 m4">
-        <div class="card darken-1">
+        <div class="card hoverable">
           <a href="http://{{ brand.url }}" target="_blank">
           <div class="card-content center-align white-text waves-effect waves-block waves-orange">
             <img src="{{ site.baseurl }}/img/logos/{{ brand.icon }}.png" alt="{{ brand.title }}" />

@@ -1,12 +1,22 @@
 .subbit {
 
+  .container {
+    width: 68%;
+  }
+
   .inf {
     background: #fff;
     padding: 20px;
     text-align: center;
-    margin: -50px 10px;
+    margin: -85px 10px;
+    width: 22%;
     position: relative;
     z-index: 2;
+  }
+
+  .flex {
+    flex-direction: row;
+    justify-content: center;
   }
 
   svg {
@@ -15,29 +25,32 @@
     fill: $accent;
   }
 
-  @media (max-width: 730px) {
-    .flex {
-      flex-direction: column;
-      justify-content: center;
-    }
+  @media (max-width: $tablet) {
     .inf {
       background: transparent;
-      margin: 0;
+      margin: 10px 0;
+      width: 50%;
       box-shadow: none;
 
-      svg {
-        width: 30px;
-        height: 30px;
-      }
+      // svg {
+      //   width: 50px;
+      //   height: 50px;
+      // }
 
       i {
         float: left;
-        margin: 15px 10px 0 0;
+        margin: 15px 10px 35px 0;
       }
 
       p {
         text-align: left;
       }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .inf {
+      width: 100%;
     }
   }
 

@@ -1,3 +1,66 @@
 .flex {
   display: flex;
+  flex-flow: row wrap;
+}
+
+
+.page {
+  margin: 100px 0;
+
+  h4 {
+    text-align: center;
+    margin: 2.5em 0 0 0;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #666;
+  }
+}
+
+blockquote {
+  border-color: $accent;
+}
+
+.headerLine {
+  position: relative;
+  margin-bottom: 60px;
+
+  &:before {
+    position: absolute;
+    display: block;
+    margin: 20px 0;
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 46%;
+    border-top: 1px solid #ddd;
+    border-top: 1px solid rgba(0,0,0,0.1);
+  }
+
+  &:after {
+    position: absolute;
+    display: block;
+    margin: 20px 0;
+    content: ' ';
+    top: 0;
+    right: 0;
+    width: 46%;
+    border-top: 1px solid #ddd;
+    border-top: 1px solid rgba(0,0,0,0.1);
+  }
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px $accent;
+  border-radius: 50%;
+  background: $accent;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 150%);
 }

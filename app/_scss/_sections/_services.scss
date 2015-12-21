@@ -6,11 +6,6 @@
 
 .services {
   margin: 100px 0;
-
-  .flex {
-    flex-flow: row wrap;
-  }
-
 }
 
 .service {
@@ -69,7 +64,8 @@
 
     h5 {
       &:after {
-        margin: 15px 0 0 0;
+        margin: 15px 0 0
+         0;
       }
     }
 
@@ -80,6 +76,6 @@
 
 .service_page {
   .deap {
-    transform: translateY(-12px);
+    //transform: translateY(-12px);
   }
 }
