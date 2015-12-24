@@ -3,7 +3,7 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: grncom
+name: Grncom Solutions
 description: Providing quality and reliable computing solutions
 title: Providing quality and reliable computing solutions
 author:
@@ -26,4 +26,3 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 highlighter: true
-

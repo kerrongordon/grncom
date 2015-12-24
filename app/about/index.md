@@ -1,7 +1,7 @@
 ---
 layout: page-about
 title: About
-subtitle: It's Nice to Meet You!
+tagline: It's Nice to Meet You!
 ---
 
 We offer a diversity of dependable computing solutions to our clients to ensure that their business get ahead and stay ahead with the latest and most efficient technology,

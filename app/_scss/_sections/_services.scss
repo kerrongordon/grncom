@@ -79,3 +79,52 @@
     //transform: translateY(-12px);
   }
 }
+
+.nextPrev {
+  background: $accent2;
+  display: flex;
+
+  .caption {
+    color: #fff;
+    padding: 20px;
+  }
+
+  .linkitem {
+    width: 50%;
+    display: block;
+    transition: $animate;
+
+    .icon svg {
+      width: 100px;
+      height: 100px;
+      float: left;
+      fill: #fff;
+      padding: 20px;
+      margin-top: 15px;
+      transition: $animate;
+    }
+
+    &:nth-child(2) {
+      text-align: right;
+
+      .icon svg {
+        float: right;
+      }
+    }
+
+    &:hover {
+      background-color: $accent;
+
+      .icon svg {
+        fill: $accent2;
+      }
+    }
+  }
+
+}
+
+@media (max-width: $mobile) {
+  .nextPrev {
+    display: none;
+  }
+}

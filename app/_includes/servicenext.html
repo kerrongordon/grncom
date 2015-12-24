@@ -1,0 +1,13 @@
+<section class="nextPrev">
+{% for service in site.data.services.services limit: 2 offset: page.nextprev %}
+<a href="{{ site.baseurl }}/services/{{ service.link }}" class="linkitem">
+      <span class="icon">
+        {{ service.icon }}
+      </span>
+      <div class="caption">
+        <h5 class="truncate">{{ service.title }}</h5>
+        <p class="truncate">{{ service.infor }}</p>
+      </div>
+</a>
+{% endfor %}
+</section>

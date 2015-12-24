@@ -1,30 +1,30 @@
 services:
  - {title: 'Networking Services',
-	link: '/cyber',
+	link: 'networking',
 	icon: '<svg viewBox="0 0 24 24"><path d="M19.35,10.03C18.67,6.59 15.64,4 12,4C9.11,4 6.6,5.64 5.35,8.03C2.34,8.36 0,10.9 0,14A6,6 0 0,0 6,20H19A5,5 0 0,0 24,15C24,12.36 21.95,10.22 19.35,10.03Z" /></svg>',
 	infor: 'Our lead staff has several years of experience in the field of networking and carries various certifications from CompTIA, Cisco and Juniper. We are fully proficient and network Savvy, whether you need a simple network connection....'}
 
  - {title: 'Computer Forensics',
-	link: '/network',
+	link: 'forensics',
 	icon: '<svg viewBox="0 0 24 24"><path d="M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z" /></svg>',
 	infor: 'Computer forensics is the acquisition, examination, and reporting of information found on computers and networks that pertain to a criminal or civil investigation Computer Forensic Services we provide training and support...'}
 
  - {title: 'security services',
-	link: '/forensics',
+	link: 'security',
 	icon: '<svg viewBox="0 0 24 24"><path d="M20,6A2,2 0 0,1 22,8V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4H10L12,6H20M19,17V13H18V12A3,3 0 0,0 15,9A3,3 0 0,0 12,12V13H11V17H19M15,11A1,1 0 0,1 16,12V13H14V12A1,1 0 0,1 15,11Z" /></svg>',
 	infor: 'In today’s technological environment, there is too much vulnerability, threats and risks that are unseen and ignored. These vulnerabilities if exploited can pose a danger to an individual, a company an organization or government....'}
 
  - {title: 'Web Design and Ad service',
-	link: '/webdesign',
+	link: 'web',
 	icon: '<svg viewBox="0 0 24 24"><path d="M4,6V16H9V12A2,2 0 0,1 11,10H16A2,2 0 0,1 18,12V16H20V6H4M0,20V18H4A2,2 0 0,1 2,16V6A2,2 0 0,1 4,4H20A2,2 0 0,1 22,6V16A2,2 0 0,1 20,18H24V20H18V20C18,21.11 17.1,22 16,22H11A2,2 0 0,1 9,20H9L0,20M11.5,20A0.5,0.5 0 0,0 11,20.5A0.5,0.5 0 0,0 11.5,21A0.5,0.5 0 0,0 12,20.5A0.5,0.5 0 0,0 11.5,20M15.5,20A0.5,0.5 0 0,0 15,20.5A0.5,0.5 0 0,0 15.5,21A0.5,0.5 0 0,0 16,20.5A0.5,0.5 0 0,0 15.5,20M13,20V21H14V20H13M11,12V19H16V12H11Z" /></svg>',
 	infor: 'The Internet is used to advertise and get coverage for your business, having a professional designed and updated website is a vital and key part of in ensuring that your business stays ahead....'}
 
  - {title: 'Staff Training',
-	link: '/training',
+	link: 'training',
 	icon: '<svg viewBox="0 0 24 24"><path d="M13,13C11,13 7,14 7,16V18H19V16C19,14 15,13 13,13M19.62,13.16C20.45,13.88 21,14.82 21,16V18H24V16C24,14.46 21.63,13.5 19.62,13.16M13,11A3,3 0 0,0 16,8A3,3 0 0,0 13,5A3,3 0 0,0 10,8A3,3 0 0,0 13,11M18,11A3,3 0 0,0 21,8A3,3 0 0,0 18,5C17.68,5 17.37,5.05 17.08,5.14C17.65,5.95 18,6.94 18,8C18,9.06 17.65,10.04 17.08,10.85C17.37,10.95 17.68,11 18,11M8,10H5V7H3V10H0V12H3V15H5V12H8V10Z" /></svg>',
 	infor: 'We believe that having a fully qualified and trained staff is vital and most important for every business to grow and to gain profitability. We also offer onsite training for companies and organization for staff development....'}
 
  - {title: 'Virtualization',
-	link: '/virtualization',
+	link: 'virtualization',
 	icon: '<svg viewBox="0 0 24 24"><path d="M21,17V5H3V17H21M21,3A2,2 0 0,1 23,5V17A2,2 0 0,1 21,19H16V21H8V19H3A2,2 0 0,1 1,17V5A2,2 0 0,1 3,3H21M5,7H11V11H5V7M5,13H11V15H5V13M13,7H19V9H13V7M13,11H19V15H13V11Z" /></svg>',
 	infor: 'Virtualize Your IT Infrastructure. Virtualization enables today’s X86 computers to run multiple operating systems and applications, making your infrastructure simpler and more efficient...'}
