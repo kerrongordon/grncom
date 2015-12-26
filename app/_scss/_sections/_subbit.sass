@@ -1,0 +1,35 @@
+.subbit
+
+  .container
+    width: 68%
+
+  +e('item')
+    width: 22%
+    margin: -95px 10px 45px
+    padding: 20px
+    text-align: center
+
+  svg
+    fill: $accent
+    width: 60px
+    height: 60px
+
+@media (max-width: $tablet)
+  .subbit
+
+    +e('item')
+      background: transparent
+      margin: 10px 0
+      width: 50%
+      box-shadow: none
+
+@media (max-width: $mobile)
+  .subbit
+
+    +e('item')
+      width: 100%
+      text-align: left
+
+    svg
+      float: left
+      margin: 0 20px 0 0
