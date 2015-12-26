@@ -10,6 +10,10 @@ author:
   name: kerrongordon
   email: kgpsounds.com@gmail.com
 
+facebook: GrncomSolutions
+googlePlus: Grncomsolutions
+twitter: grncomsolutions
+
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'vendor']
