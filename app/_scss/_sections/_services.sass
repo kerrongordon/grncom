@@ -1,0 +1,49 @@
+.services
+  margin: 100px 0
+
+  +e('item')
+    padding: 20px
+    width: 33.3%
+    text-align: center
+
+    &:hover
+      box-shadow: 0px 100px 0px -98px $accent, 100px 0px 0px -98px $accent, 0px -100px 0px -98px $accent, -100px 0px 0px -98px $accent
+
+  +e('icon')
+    svg
+      width: 100px
+      height: 100px
+      fill: $accent
+
+  +e('btn')
+    display: block
+
+  +e('title')
+    color: $fontColor
+
+  +e('content')
+    color: $fontColor
+
+  +e('link')
+    color: $accent
+
+@media (max-width: $tablet)
+  .services
+
+    +e('item')
+      width: 50%
+
+@media (max-width: $mobile)
+  .services
+
+    +e('item')
+      width: 100%
+      text-align: left
+
+    +e('icon')
+      float: left
+      margin: 12px 10px 0 0
+
+      svg
+        width: 24px
+        height: 24px
