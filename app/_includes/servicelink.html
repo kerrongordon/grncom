@@ -1,0 +1,15 @@
+<section class="servicelink">
+      <div class="container">
+            <div class="container__flex">
+                  {% for service in site.data.services.services limit: 2 offset: page.nextprev %}
+                  <a href="{{ site.baseurl }}/services/{{ service.link }}" class="servicelink__item">
+                        <span class="servicelink__icon">{{ service.icon }}</span>
+                        <div class="servicelink__caption">
+                          <h5 class="truncate">{{ service.title }}</h5>
+                          <p class="truncate">{{ service.infor }}</p>
+                        </div>
+                  </a>
+                  {% endfor %}
+            </div>
+      </div>
+</section>

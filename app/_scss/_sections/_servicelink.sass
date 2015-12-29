@@ -1,0 +1,37 @@
+.servicelink
+  background: $accent2
+
+  +e('icon')
+    svg
+      width: 100px
+      height: 100px
+      float: left
+      fill: white
+      padding: 20px
+      margin-top: 15px
+      transition: $animate
+
+  +e('item')
+    width: 50%
+    transition: $animate
+
+    &:hover
+      background-color: $accent
+
+      svg
+        fill: $accent2
+
+    &:nth-child(2)
+      text-align: right
+
+      svg
+        float: right
+
+  +e('caption')
+    color: white
+    padding: 20px
+
+
+@media (max-width: $mobile)
+  .servicelink
+    display: none
