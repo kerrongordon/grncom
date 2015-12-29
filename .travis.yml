@@ -2,7 +2,7 @@ sudo: false
 
 language: ruby
 rvm:
-  - 2.2.3-p173
+  - 2.0.0-p247
 
 before_script:
   - npm install -g grunt-cli bower
