@@ -1,8 +1,8 @@
 {
-  "name": "gsetri",
+  "name": "grncom",
   "private": true,
   "version": "0.0.0",
-  "description": "Yeoman workflow for gsetri",
+  "description": "Yeoman workflow for grncom",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
