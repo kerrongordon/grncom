@@ -1,21 +1,20 @@
 main:
  - {title: 'Home',
-	link: '/',
+	link: '',
 	icon: 'fa-home fa'}
 
  - {title: 'News & Media',
-	link: '/news',
+	link: 'news',
 	icon: 'fa-inbox fa'}
 
  - {title: 'Services',
-	link: '/services',
+	link: 'services',
 	icon: 'fa fa-cogs'}
 
  - {title: 'About',
-	link: '/about',
+	link: 'about',
 	icon: 'fa-tachometer fa'}
 
  - {title: 'Contact',
-	link: '/contact',
+	link: 'contact',
 	icon: 'fa-envelope fa'}
-
