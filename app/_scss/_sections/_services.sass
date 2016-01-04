@@ -1,19 +1,41 @@
 .services
   margin: 100px 0
 
-  +e('item')
-    padding: 20px
-    width: 33.3%
-    text-align: center
-
-    &:hover
-      box-shadow: 0px 100px 0px -98px $accent, 100px 0px 0px -98px $accent, 0px -100px 0px -98px $accent, -100px 0px 0px -98px $accent
-
   +e('icon')
+    width: 150px
+    height: 150px
+    display: block
+    margin: 0 auto
+    position: relative
+    border-radius: 50%
+    transition: all 0.4s ease-in-out
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5) inset
+
     svg
       width: 100px
       height: 100px
-      fill: $accent
+      fill: white
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+
+  +e('readmore')
+    position: absolute
+    top: -20%
+    left: 30%
+    opacity: 0
+    transform: translate(-20%, -50%)
+    color: $fontColor
+    transition: all 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000)
+
+    h4
+      font-size: 1.78rem
+
+
+  +e('caption')
+    transition: all 0.4s linear
+    opacity: 1
 
   +e('btn')
     display: block
@@ -26,6 +48,46 @@
 
   +e('link')
     color: $accent
+
+  +e('item')
+    padding: 20px
+    width: 33.3%
+    text-align: center
+
+    &:nth-child(2)
+      .services__icon
+        background: $flat-green-sea
+
+    &:nth-child(4)
+      .services__icon
+        background: $flat-peter-river
+
+    &:nth-child(6)
+      .services__icon
+        background: $flat-amethyst
+
+    &:nth-child(8)
+      .services__icon
+        background: $flat-alizarin
+
+    &:nth-child(10)
+      .services__icon
+        background: $flat-sunflower
+
+    &:nth-child(12)
+      .services__icon
+        background: $flat-emerald
+
+    &:hover
+      .services__icon
+        filter: blur(50px)
+
+      .services__caption
+        opacity: 0.05
+
+      .services__readmore
+        top: 50%
+        opacity: 1
 
 @media (max-width: $tablet)
   .services
@@ -42,8 +104,10 @@
 
     +e('icon')
       float: left
-      margin: 12px 10px 0 0
+      width: 100px
+      height: 100px
+      margin: 25px 10px 20px 0
 
       svg
-        width: 24px
-        height: 24px
+        width: 50px
+        height: 50px
