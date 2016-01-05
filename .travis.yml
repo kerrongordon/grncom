@@ -11,6 +11,3 @@ before_script:
   - bundle install
 
 script: grunt
-
-after_success:
-  - grunt deploy
