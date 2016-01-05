@@ -34,7 +34,7 @@
 
 
   +e('caption')
-    transition: all 0.4s linear
+    transition: all 0.3s linear
     opacity: 1
 
   +e('btn')
@@ -83,7 +83,7 @@
         filter: blur(50px)
 
       .services__caption
-        opacity: 0.05
+        opacity: 0.02
 
       .services__readmore
         top: 50%
@@ -95,19 +95,32 @@
     +e('item')
       width: 50%
 
+    +e('icon')
+      width: 100px
+      height: 100px
+
+      svg
+        width: 50px
+        height: 50px
+
 @media (max-width: $mobile)
   .services
 
     +e('item')
       width: 100%
+      padding: 0
       text-align: left
+
+    +e('caption')
+      width: 70%
+      max-width: 70%
 
     +e('icon')
       float: left
-      width: 100px
-      height: 100px
-      margin: 25px 10px 20px 0
+      width: 50px
+      height: 50px
+      margin: 15px 15px 15px 0
 
       svg
-        width: 50px
-        height: 50px
+        width: 24px
+        height: 24px

@@ -10,7 +10,7 @@
     <div class="container__flex">
       {% for service in site.data.services.services %}
       <a href="{{ site.baseurl }}/services/{{ service.link }}">
-        <div class="services__item waves-effect waves-orange">
+        <div class="services__item waves-effect container__flex waves-orange">
           <span class="services__icon">{{ service.icon }}</span>
           <span class="services__readmore"><h4>More Details on {{ service.title }}</h4></span>
           <div class="services__caption">
